@@ -21,7 +21,7 @@ CommitAI e um bot do Telegram que ajuda devs a padronizar titulo e descricao de 
 
 - Python 3.10+
 - Chave do bot do Telegram
-- Chave de API da OpenAI
+- Chave de API da OpenAI (o uso gera custo de tokens)
 
 ## Instalacao
 
@@ -46,6 +46,8 @@ Crie um arquivo `.env` na raiz do projeto com as chaves:
 TELEGRAM_BOT_API_KEY=sua_chave
 OPENAI_API=sua_chave
 ```
+
+⚠️ O uso da API da OpenAI gera custo por tokens consumidos. Use sua chave com essa ciência.
 
 Exemplo:
 
