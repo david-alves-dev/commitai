@@ -1,5 +1,12 @@
 # CommitAI
 
+<div align="left">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/davidalves.dev)
+
+</div>
+
 CommitAI e um bot do Telegram que ajuda devs a padronizar titulo e descricao de commits seguindo o padrao **Conventional Commits**. A ideia nasceu dentro da empresa onde trabalho, pois nao existia um formato consistente. Com o CommitAI, qualquer pessoa descreve o que fez e recebe um commit pronto, tecnico e padronizado.
 
 ## O que ele faz
