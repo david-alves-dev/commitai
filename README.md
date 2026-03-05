@@ -3,7 +3,7 @@
 <div align="left">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-[![Solicitar Consultoria](https://img.shields.io/badge/Solicitar%20Consultoria-00A846?style=for-the-badge&logo=poe&logoColor=white)](https://davidalves.dev/)
+[![Acessar Site](https://img.shields.io/badge/Acessar%20Site-00A846?style=for-the-badge&logo=robotframework&logoColor=white)](https://davidalves.dev/)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/davidalves.dev)
 
 </div>
