@@ -10,14 +10,14 @@
 
 CommitAI e um bot do Telegram que ajuda devs a padronizar titulo e descricao de commits seguindo o padrao **Conventional Commits**. A ideia nasceu dentro da empresa onde trabalho, pois nao existia um formato consistente. Com o CommitAI, qualquer pessoa descreve o que fez e recebe um commit pronto, tecnico e padronizado.
 
-## O que ele faz
+## 🚀 O que ele faz
 
 - Gera titulo e descricao de commit no formato Conventional Commits
 - Mantem o formato rigoroso com dois blocos Markdown
 - Suporta texto e audio (transcricao via OpenAI)
 - Responde direto no Telegram para agilizar o fluxo de trabalho
 
-## Como funciona
+## ⚙️ Como funciona
 
 1. O usuario clica em **Gerar commit** no bot do Telegram
 2. Envia um texto (ou audio) descrevendo a alteracao
@@ -25,13 +25,13 @@ CommitAI e um bot do Telegram que ajuda devs a padronizar titulo e descricao de 
    - **Titulo do commit** (1a linha)
    - **Descricao do commit** (bullets quando necessario)
 
-## Requisitos
+## ✅ Requisitos
 
 - Python 3.10+
 - Chave do bot do Telegram
 - Chave de API da OpenAI (o uso gera custo de tokens)
 
-## Instalacao
+## 📦 Instalacao
 
 ```bash
 python -m venv .venv
@@ -39,7 +39,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Configuracao
+## 🔧 Configuracao
 
 No arquivo `main.py` sao usadas duas chaves:
 
@@ -64,7 +64,7 @@ TELEGRAM_BOT_API_KEY = os.getenv("TELEGRAM_BOT_API_KEY", "")
 OPENAI_API = os.getenv("OPENAI_API", "")
 ```
 
-## Executando
+## ▶️ Executando
 
 ```bash
 python main.py
@@ -72,13 +72,13 @@ python main.py
 
 O bot roda em **polling** e ja fica ouvindo mensagens no Telegram.
 
-## Estrutura do projeto
+## 🗂️ Estrutura do projeto
 
 - `main.py`: bot do Telegram e integracao com OpenAI
 - `prompts/commitai.md`: prompt com regras de formatacao do commit
 - `requirements.txt`: dependencias
 
-## Exemplo de uso
+## 🧪 Exemplo de uso
 
 Entrada do usuario:
 
@@ -97,13 +97,13 @@ refactor: reduz tempo de espera para testes
 - Diminui o tempo de sleep para agilizar testes
 ```
 
-## Observacoes importantes
+## ⚠️ Observacoes importantes
 
 - O formato retornado segue estritamente o padrao definido em `prompts/commitai.md`
 - O bot nao inventa informacoes que o usuario nao forneceu
 - Evite textos vagos: quanto mais claro o resumo, melhor o commit
 
-## Sobre o Autor
+## 👨‍💻 Sobre o Autor
 
 - **Nome:** David Alves
 - **Site:** `https://davidalves.dev/`
