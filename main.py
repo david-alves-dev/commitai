@@ -107,7 +107,7 @@ def verificar(msg):
 @bot.message_handler(func=verificar)
 def responder(msg):
     msg_inicial = '''
-Escolha uma **opção** para continuar:
+Escolha uma **opção** abaixo para continuar:
 '''
     teclado = types.InlineKeyboardMarkup()
     teclado.add(
